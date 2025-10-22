@@ -1,6 +1,6 @@
 const API_BASE_URL =
 	process.env.NEXT_PUBLIC_API_URL ||
-	"https://language-translator-backend-production.up.railway.app";
+	"https://language-translator-backend-production.up.railway.app/api/v1";
 
 class APIError extends Error {
 	constructor(message: string, public status: number) {
