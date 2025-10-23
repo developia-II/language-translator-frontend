@@ -83,6 +83,8 @@ export async function playYoruba(text: string): Promise<void> {
     const url = URL.createObjectURL(blob);
     const audio = new Audio(url);
     try {
+        // Ensure inline playback on mobile (iOS Safari/Android Chrome)
+        audio.setAttribute("playsinline", "true");
         await audio.play();
     } finally {
         audio.onended = () => URL.revokeObjectURL(url);

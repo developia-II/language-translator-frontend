@@ -10,6 +10,7 @@ import { LanguageSelector } from "./language-selector";
 import { SourceTextarea } from "./source-textarea";
 import { TargetDisplay } from "./target-display";
 import { playYoruba } from "@/lib/yoruba-tts";
+import { ensureAudioUnlocked } from "@/lib/audio-unlock";
 
 interface TranslateFormProps {
 	onTranslate: (translation: Translation) => void;
@@ -119,6 +120,8 @@ export function TranslateForm({
 		const bcp = mapToBcp47(lang);
 		const base = bcp.toLowerCase().split("-")[0];
 		try {
+			// Unlock audio on mobile within the user gesture before any awaits
+			await ensureAudioUnlocked();
 			// Client-side Yoruba TTS using Xenova
 			if (base === "yo") {
 				try {
@@ -135,6 +138,8 @@ export function TranslateForm({
 				const blob = await api.tts.speak(text, bcp);
 				const url = URL.createObjectURL(blob);
 				const audio = new Audio(url);
+				// Ensure inline playback on mobile
+				audio.setAttribute("playsinline", "true");
 				audio.play().finally(() => URL.revokeObjectURL(url));
 				return;
 			} catch (e) {
