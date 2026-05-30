@@ -274,13 +274,12 @@ export default function Home() {
 							</div>
 						</div>
 						<h2 className="text-5xl lg:text-7xl font-bold text-balance leading-tight animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
-							Bridge Languages,{" "}
-							<span className="text-gradient">Connect Cultures</span>
+							Bridging Medical Language Barriers
 						</h2>
 						<p className="text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
-							Translate between Yoruba, Igbo, Hausa, and more with context-aware
-							AI support for trickier terms like medical words, plus accurate
-							pronunciation. Built for multilingual campus communities.
+							Translate medical diseases and healthrelated terms between
+							English, Yoruba, Igbo, and Hausa with pronunciation support for
+							better understanding and learning.
 						</p>
 					</div>
 
@@ -317,8 +316,8 @@ export default function Home() {
 								Translation History
 							</h3>
 							<p className="text-sm text-muted-foreground leading-relaxed">
-								Access your previous translations anytime, anywhere with cloud
-								sync
+								Replace with View and manage previously translated medical terms
+								for future reference.
 							</p>
 						</div>
 

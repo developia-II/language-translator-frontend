@@ -63,27 +63,24 @@ export function HeroSection() {
 
 						<div className="space-y-5">
 							<h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-balance leading-tight animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
-								One campus, many languages,{" "}
-								<span className="bg-gradient-to-r from-[#e78a53] to-[#f5a76e] bg-clip-text text-transparent">
-									one clearer conversation
-								</span>
+								Bridging Medical Language Barriers on Campus
 							</h1>
 
 							<p className="text-lg md:text-xl lg:text-2xl text-gray-200/85 max-w-3xl mx-auto md:mx-0 text-pretty leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
-								Bring students, lecturers, and visitors closer with instant AI
-								translation across Yoruba, Igbo, Hausa, and English, designed
-								for everyday life around Hallmark University.
+								Translate common medical terms and diseases from English into
+								Yoruba, Igbo, and Hausa to improve understanding and learning in
+								a multilingual campus environment.
 							</p>
 						</div>
 
 						<div className="flex flex-wrap items-center justify-center md:justify-start gap-3 text-sm text-gray-200/80 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-250">
 							<div className="inline-flex items-center gap-2 rounded-full border border-white/[0.15] bg-black/[0.25] px-4 py-2 backdrop-blur-md">
 								<MapPin className="h-4 w-4 text-[#e78a53]" />
-								<span>Hallmark University inspired</span>
+								<span>Medical Terms Made Simple</span>
 							</div>
 							<div className="inline-flex items-center gap-2 rounded-full border border-white/[0.15] bg-black/[0.25] px-4 py-2 backdrop-blur-md">
 								<Users className="h-4 w-4 text-[#e78a53]" />
-								<span>Made for students and staff</span>
+								<span>Made For Students and Staff</span>
 							</div>
 						</div>
 
@@ -167,10 +164,11 @@ export function HeroSection() {
 												<MessageSquareText className="h-5 w-5 text-[#f5a76e]" />
 											</div>
 											<p className="text-sm font-medium text-white">
-												Easy conversations
+												Easy Medical Understanding
 											</p>
 											<p className="mt-1 text-xs leading-relaxed text-gray-400">
-												Bridge chats between students, staff, and visitors.
+												Understand medical terms and diseases in familiar local
+												languages.
 											</p>
 										</div>
 									</div>
@@ -212,8 +210,8 @@ export function HeroSection() {
 													Grounded in campus context
 												</p>
 												<p className="mt-1 text-sm leading-relaxed text-gray-300">
-													From lecture halls to admin offices, the experience is
-													shaped to feel local, warm, and immediately useful.
+													Helping students understand medical diseases and
+													health related terms in familiar local languages.
 												</p>
 											</div>
 										</div>

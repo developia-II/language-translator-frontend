@@ -17,7 +17,7 @@ export function CTASection() {
 					}
 				});
 			},
-			{ threshold: 0.1 }
+			{ threshold: 0.1 },
 		);
 
 		if (sectionRef.current) {
@@ -36,11 +36,11 @@ export function CTASection() {
 
 					<div className="relative z-10 text-center space-y-6 md:space-y-8">
 						<h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-balance leading-tight">
-							Ready to break language barriers?
+							Ready to translate medical terms with ease?
 						</h2>
 						<p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto text-pretty">
-							Join thousands of users connecting cultures across Nigeria. Start
-							translating for free today.
+							Translate medical diseases and health related terms into Yoruba,
+							Igbo, and Hausa for better understanding and learning.
 						</p>
 
 						<div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

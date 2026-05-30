@@ -25,8 +25,7 @@ const features = [
 	{
 		icon: History,
 		title: "Conversation History",
-		description:
-			"Access your previous translations and conversations anytime, anywhere with cloud sync.",
+		description: "View and access previously translated medical terms anytime.",
 	},
 	{
 		icon: Zap,
@@ -80,13 +79,14 @@ export function FeaturesSection() {
 						<span className="text-sm font-medium text-gray-300">Features</span>
 					</div>
 					<h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-balance">
-						Everything you need to{" "}
+						Simple Tools for {""}
 						<span className="bg-gradient-to-r from-[#e78a53] to-[#f5a76e] bg-clip-text text-transparent">
-							connect cultures
+							Medical Language Translation
 						</span>
 					</h2>
 					<p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto text-pretty">
-						Powerful features designed for seamless multilingual communication
+						Features designed to help students understand medical terms in
+						different languages.
 					</p>
 				</motion.div>
 

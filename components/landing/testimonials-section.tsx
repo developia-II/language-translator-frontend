@@ -5,45 +5,38 @@ import { Star } from "lucide-react";
 
 const testimonials = [
 	{
-		name: "Adebayo Ogunlesi",
-		role: "Student, University of Lagos",
+		name: "Medical Student",
+		role: "Igbo Language Learner",
 		content:
-			"Campuslingo helped me communicate with my Igbo classmates effortlessly. The AI chat is incredibly accurate!",
+			"The platform helped me understand medical terms in Igbo more easily. The pronunciation feature also improved my learning experience.",
 		rating: 5,
 	},
 	{
-		name: "Chioma Nwosu",
-		role: "Lecturer, Nnamdi Azikiwe University",
+		name: "Medical Student",
+		role: "Native Language Learner",
 		content:
-			"Finally, a translation tool that understands Nigerian languages properly. The voice feature is a game-changer.",
+			"The translations are simple and accurate. It helped me learn medical disease terms faster in my native language.",
 		rating: 5,
 	},
 	{
-		name: "Ibrahim Musa",
-		role: "Researcher, Ahmadu Bello University",
+		name: "Medical Student",
+		role: "Study Reviewer",
 		content:
-			"The conversation history feature saves me so much time. I can reference past translations instantly.",
+			"The translation history feature helps me review medical terms anytime during my studies.",
 		rating: 5,
 	},
 	{
-		name: "Ngozi Okafor",
-		role: "Business Owner, Lagos",
+		name: "Healthcare Learner",
+		role: "Pronunciation Practice",
 		content:
-			"I use Campuslingo daily to communicate with customers across Nigeria. It's fast, accurate, and reliable.",
+			"The platform makes medical terms easier to understand and pronounce correctly.",
 		rating: 5,
 	},
 	{
-		name: "Yusuf Abdullahi",
-		role: "Student, Bayero University",
+		name: "Medical Lecturer",
+		role: "Local Language Education",
 		content:
-			"The AI understands context and cultural nuances. Best translation tool I've used for Nigerian languages.",
-		rating: 5,
-	},
-	{
-		name: "Amaka Eze",
-		role: "Teacher, Port Harcourt",
-		content:
-			"My students love using Campuslingo to learn and practice different Nigerian languages. Highly recommended!",
+			"My students find the platform helpful for understanding medical diseases in local languages.",
 		rating: 5,
 	},
 ];
@@ -60,7 +53,7 @@ export function TestimonialsSection() {
 					}
 				});
 			},
-			{ threshold: 0.1 }
+			{ threshold: 0.1 },
 		);
 
 		if (sectionRef.current) {
@@ -85,10 +78,11 @@ export function TestimonialsSection() {
 						</span>
 					</div>
 					<h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-balance">
-						What our users say
+						User Feedback on Medical Translation
 					</h2>
 					<p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto text-pretty">
-						Join thousands of users breaking language barriers across Nigeria
+						Helping students understand medical terms in different Nigerian
+						languages.
 					</p>
 				</div>
 
